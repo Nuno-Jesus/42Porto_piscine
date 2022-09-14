@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi_base.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ncarvalh <ncarvalh@student.42.fr>          +#+  +:+       +#+        */
+/*   By: crypto <crypto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/25 12:29:22 by ncarvalh          #+#    #+#             */
-/*   Updated: 2022/08/31 14:39:43 by ncarvalh         ###   ########.fr       */
+/*   Updated: 2022/09/14 09:36:16 by crypto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
-int	is_space(char c)
+int	ft_is_space(char c)
 {
 	return (c == ' ' || c == '\f'
 		|| c == '\n' || c == '\r'
@@ -59,7 +59,7 @@ int	is_invalid(char *base)
 				return (1);
 			k++;
 		}
-		if (base[i] == '+' || base[i] == '-' || is_space(base[i]))
+		if (base[i] == '+' || base[i] == '-' || ft_is_space(base[i]))
 			return (1);
 		i++;
 	}
@@ -79,7 +79,7 @@ int	ft_atoi_base(char *str, char *base)
 	is_negative = 0;
 	if (is_invalid(base))
 		return (0);
-	while (is_space(str[i]))
+	while (ft_is_space(str[i]))
 		i++;
 	while (str[i] == '-' || str[i] == '+')
 		if (str[i++] == '-')

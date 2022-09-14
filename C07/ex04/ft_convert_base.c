@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_convert_base.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ncarvalh <ncarvalh@student.42.fr>          +#+  +:+       +#+        */
+/*   By: crypto <crypto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/30 15:56:56 by ncarvalh          #+#    #+#             */
-/*   Updated: 2022/09/08 08:32:01 by ncarvalh         ###   ########.fr       */
+/*   Updated: 2022/09/14 09:36:16 by crypto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int	get_index(char c, char *base)
 	return (-1);
 }
 
-int	is_space(char c)
+int	ft_is_space(char c)
 {
 	return (c == ' ' || c == '\f'
 		|| c == '\n' || c == '\r'
@@ -48,7 +48,7 @@ int	is_invalid(char *base)
 		return (1);
 	while (base[i] != '\0')
 	{
-		if (base[i] == '+' || base[i] == '-' || is_space(base[i]))
+		if (base[i] == '+' || base[i] == '-' || ft_is_space(base[i]))
 			return (1);
 		k = i + 1;
 		while (base[k] != '\0')
@@ -73,7 +73,7 @@ long int	base_to_decimal(char *nbr, char *base)
 	res = 0;
 	is_negative = 0;
 	base_size = ft_strlen(base);
-	while (is_space(nbr[i]))
+	while (ft_is_space(nbr[i]))
 		i++;
 	while (nbr[i] == '-' || nbr[i] == '+')
 	{
