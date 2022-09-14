@@ -6,7 +6,7 @@
 /*   By: crypto <crypto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 07:50:04 by crypto            #+#    #+#             */
-/*   Updated: 2022/09/14 08:01:29 by crypto           ###   ########.fr       */
+/*   Updated: 2022/09/14 09:27:21 by crypto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,8 @@ int ft_is_sort(int *tab, int length, int (*f)(int, int))
 
 int main(void)
 {
-    int array[] = {0, 0, 0, 0, 0};
-    int size = 5;
+    int array[] = {3, 3};
+    int size = 2;
 
     printf("%d\n", ft_is_sort(array, size, &is_bigger));
 }
