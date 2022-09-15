@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_sort_string_tab.c                               :+:      :+:    :+:   */
+/*   ft_advanced_sort_string_tab.c                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: crypto <crypto@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/15 08:30:19 by crypto            #+#    #+#             */
-/*   Updated: 2022/09/15 08:40:59 by crypto           ###   ########.fr       */
+/*   Created: 2022/09/15 08:40:42 by crypto            #+#    #+#             */
+/*   Updated: 2022/09/15 08:44:01 by crypto           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
-
+/* 
 int ft_strcmp(char *s1, char *s2)
 {
     int i;
@@ -21,9 +21,9 @@ int ft_strcmp(char *s1, char *s2)
     while (s1[i] == s2[i] && s1[i])
         i++;
     return (s1[i] - s2[i]);
-}
+} */
 
-void    ft_sort_string_tab(char **tab)
+void ft_advanced_sort_string_tab(char **tab, int(*cmp)(char *, char *))
 {
     int     i;
     char    *aux;
@@ -33,7 +33,7 @@ void    ft_sort_string_tab(char **tab)
     i = 0;
     while (tab[i + 1] != NULL)
     {
-        if (ft_strcmp(tab[i], tab[i + 1]) > 0)
+        if (cmp(tab[i], tab[i + 1]) > 0)
         {
             aux = tab[i];
             tab[i] = tab[i + 1];
@@ -55,7 +55,7 @@ int main(int argc, char **argv)
 {
     (void)argc;
     ft_print(argv);
-    ft_sort_string_tab(argv);
+    ft_advanced_sort_string_tab(argv, &ft_strcmp);
     printf("----------------------------\n");
     ft_print(argv);
 } */
