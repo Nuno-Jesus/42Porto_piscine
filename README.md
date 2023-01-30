@@ -14,7 +14,7 @@ Project Name | Grade
 [C 08](/C08/) | 100%
 [C 09](/C09/) | 100%
 [C 10](/C10/) | (Not Started)
-[C 11](/C11/) | (Not Finished)
+[C 11](/C11/) | (Not Delivered)
 [C 12](/C12/) | (Not Started)
 [C 13](/C13/) | (Not Started)
 [Rush 00](/R00/) | 115%
