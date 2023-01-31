@@ -11,5 +11,5 @@ Links | Exercise | Validation
 [Exercise 05:](/S00/ex05/) | git_commit.sh | ✅
 [Exercise 06:](/S00/ex06/) | git_ignore.sh | ✅
 [Exercise 07:](/S00/ex07/) | b | ✅
-[Exercise 08:](/S00/ex08/) | clean | ❌
+[Exercise 08:](/S00/ex08/) | clean | ❔
 [Exercise 09:](/S00/ex09/) | ft_magic | ✅
