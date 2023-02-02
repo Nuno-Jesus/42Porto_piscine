@@ -14,18 +14,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-t_list	*ft_list_push_strs(int size, char **strs)
-{
-	int		i;
-	t_list	*list;
-
-	i = 0;
-	list = NULL;
-	while (i < size)
-		ft_list_push_front(&list, strs[i++]);
-	return (list);
-}
-/* 
 void	ft_list_push_front(t_list **begin_list, void *data)
 {
 	t_list	*node;
@@ -39,6 +27,19 @@ void	ft_list_push_front(t_list **begin_list, void *data)
 		node->next = *begin_list;
 	*begin_list = node;
 }
+
+t_list	*ft_list_push_strs(int size, char **strs)
+{
+	int		i;
+	t_list	*list;
+
+	i = 0;
+	list = NULL;
+	while (i < size)
+		ft_list_push_front(&list, strs[i++]);
+	return (list);
+}
+/* 
 
 t_list	*ft_create_elem(void *data)
 {
