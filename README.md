@@ -15,12 +15,12 @@ Project Name | Grade
 [C 08](/C08/) | 100%
 [C 09](/C09/) | 100%
 [C 10](/C10/) | (Not Started)
-[C 11](/C11/) | (Not Delivered)
-[C 12](/C12/) | (Not Started)
+[C 11](/C11/) | (Done / Not Delivered)
+[C 12](/C12/) | (Done / Not Delivered)
 [C 13](/C13/) | (Not Started)
 [Rush 00](/R00/) | 115%
 [Rush 01](/R01/) | 120%
-[Rush 02](/R02/) | (Not finished)
+[Rush 02](/R02/) | (Not Finished)
 [BSQ](/BSQ/)| -21% (lol)
 Exam 00 | 100%
 Exam 01 | 80%
