@@ -2,18 +2,18 @@
 
 Project Name | Grade | Project Name | Grade 
 :----------------:|:----:|:----------------:|:------:
-[Shell 00](/S00/) | 70% ✅ | [C 10](/C10/)    | (Not Started) ❌
-[Shell 01](/S01/) | 70% ✅ | [C 11](/C11/)    | (Done / Not Delivered) ❔
-[C 00](/C00/)     | 100% ✅| [C 12](/C12/)    | (Done / Not Delivered) ❔
-[C 01](/C01/)     | 100% ✅| [C 13](/C13/)    | (Not Started) ❌
-[C 02](/C02/)     | 85%  ✅| [Rush 00](/R00/) | 115% ✅
-[C 03](/C03/)     | 100% ✅| [Rush 01](/R01/) | 120% ✅
-[C 04](/C04/)     | 100% ✅| [Rush 02](/R02/) | (Not Finished) ❌
-[C 05](/C05/)     | 100% ✅| [BSQ](/BSQ/)     | -21% (*) ❌
-[C 06](/C06/)     | 100% ✅| Exam 00          | 100% ✅
-[C 07](/C07/)     | 45%  ❌| Exam 01          | 80%  ✅
-[C 08](/C08/)     | 100% ✅| Exam 02          | 100% ✅
-[C 09](/C09/)     | 100% ✅| Exam 03          | 100% ✅
+[Shell 00](code/S00/) | 70% ✅ | [C 10](code/C10/)    | (Not Started) ❌
+[Shell 01](code/S01/) | 70% ✅ | [C 11](code/C11/)    | (Done / Not Delivered) ❔
+[C 00](code/C00/)     | 100% ✅| [C 12](code/C12/)    | (Done / Not Delivered) ❔
+[C 01](code/C01/)     | 100% ✅| [C 13](code/C13/)    | (Not Started) ❌
+[C 02](code/C02/)     | 85%  ✅| [Rush 00](code/R00/) | 115% ✅
+[C 03](code/C03/)     | 100% ✅| [Rush 01](code/R01/) | 120% ✅
+[C 04](code/C04/)     | 100% ✅| [Rush 02](code/R02/) | (Not Finished) ❌
+[C 05](code/C05/)     | 100% ✅| [BSQ](code/BSQ/)     | -21% (*) ❌
+[C 06](code/C06/)     | 100% ✅| Exam 00          | 100% ✅
+[C 07](code/C07/)     | 45%  ❌| Exam 01          | 80%  ✅
+[C 08](code/C08/)     | 100% ✅| Exam 02          | 100% ✅
+[C 09](code/C09/)     | 100% ✅| Exam 03          | 100% ✅
 
 > **Note**
 > In BSQ, moulinette considered the functions before `main` execution as forbidden, resulting in "cheating". Regardless of this error, the project was bound to fail anyways.
