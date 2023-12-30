@@ -15,7 +15,7 @@ Project Name | Grade | Project Name | Grade
 [C 08](code/C08/)     | 100% ✅| Exam 02          | 100% ✅
 [C 09](code/C09/)     | 100% ✅| Exam 03          | 100% ✅
 
-> **Note**
+> [!Note]
 > In BSQ, moulinette considered the functions before `main` execution as forbidden, resulting in "cheating". Regardless of this error, the project was bound to fail anyways.
 
 # Description
